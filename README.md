@@ -23,7 +23,7 @@ Simple app to read words from STDIN and send them to a listener in TextBar.
 > You can specify different port / speed like this:
 
 ```
-./TBWords --port=8081 --sleep=500 < myfile.txt
+./TBWords --port=8081 --sleep=500ms < myfile.txt
 ```
 
 #### 4 Done :)
