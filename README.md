@@ -20,10 +20,22 @@ Simple app to read words from STDIN and send them to a listener in TextBar.
 ./TBWords < myfile.txt
 ```
 
-> You can specify different port / speed like this:
+> You can specify different port / speed / mode like this:
 
 ```
-./TBWords --port=8081 --sleep=500ms < myfile.txt
+./TBWords --port=8081 --sleep=500ms --mode=words < myfile.txt
+```
+
+Mode can be 'lines' or 'words'.
+
+If you want to run this on a loop, then use Bash to
+
+```
+while :
+do
+  ./TBWords < myfile.txt
+  sleep 1
+done
 ```
 
 #### 4 Done :)
