@@ -26,7 +26,7 @@ Simple app to read words from STDIN and send them to a listener in TextBar.
 ./TBWords --port=8081 --sleep=500ms --mode=words < myfile.txt
 ```
 
-Mode can be 'lines' or 'words'.
+Mode can be 'lines' or 'words' (default is 'lines').
 
 If you want to run this on a loop, then use Bash to
 
